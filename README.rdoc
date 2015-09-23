@@ -1,8 +1,0 @@
-= factfill
-
-Factfill is a fairly dumb tool that bulk-loads cached facts into PuppetDB.
-
-The use case this was built for is to import cached facts from one Puppet master to the PuppetDB of a different master, so that you can compile nodes on the second master that only check in to the first master. This faciliates migrations, such as going from an older Puppet 3.3 to Puppet 4.x, where it's difficult to have nodes submit facts to the new infrastructure directly.
-
-:include:factfill.rdoc
-
