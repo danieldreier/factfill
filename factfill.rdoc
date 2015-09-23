@@ -1,0 +1,5 @@
+= factfill
+
+Generate this with
+    factfill rdoc
+After you have described your command line interface
